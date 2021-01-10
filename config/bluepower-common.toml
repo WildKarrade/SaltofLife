@@ -1,0 +1,136 @@
+
+[WorldGen]
+
+	[WorldGen.Volcano]
+		#Biomes that volcanoes should generate
+		volcanoBiomeCategoryWhitelist = "taiga,extreme_hills,jungle,mesa,plains,savanna,icy,beach,forest,ocean,desert,river,swamp,mushroom"
+		#Possible to generate Tungsten in the Volcano
+		generateTungstenInVolcano = true
+		#Volcano Spawn Chance
+		volcanoSpawnChance = 0.005
+		#Volcano Active To Inactive Ratio
+		volcanoActiveToInactiveRatio = 0.5
+		#Generate Volcano
+		generateVolcano = true
+
+	[WorldGen.Silver]
+		#Vein Size Silver
+		veinSizeSilver = 6
+		#Silver Max Y
+		maxSilverY = 20
+		#Generate Silver
+		generateSilver = false
+		#Vein Count Silver
+		veinCountSilver = 3
+		#Silver Min Y
+		minSilverY = 1
+
+	[WorldGen.Sapphire]
+		#Sapphire Min Y
+		minSapphireY = 0
+		#Generate Sapphire
+		generateSapphire = true
+		#Vein Size Sapphire
+		veinSizeSapphire = 5
+		#Vein Count Sapphire
+		veinCountSapphire = 2
+		#Sapphire Max Y
+		maxSapphireY = 48
+
+	#Toggle blocks being generated into the world
+	[WorldGen.Tungsten]
+		#Tungsten Max Y
+		maxTungstenY = 10
+		#Vein Size Tungsten
+		veinSizeTungsten = 3
+		#Vein Count Tungsten
+		veinCountTungsten = 2
+		#Generate Tungsten
+		generateTungsten = true
+		#Tungsten Min Y
+		minTungstenY = 1
+
+	[WorldGen.IndigoFlower]
+		#Indigo Flower Spawn Chance
+		flowerSpawnChance = 1
+
+	[WorldGen.Copper]
+		#Copper Max Y
+		maxCopperY = 90
+		#Vein Size Copper
+		veinSizeCopper = 7
+		#Generate Copper
+		generateCopper = false
+		#Copper Min Y
+		minCopperY = 35
+		#Vein Count Copper
+		veinCountCopper = 8
+
+	[WorldGen.Marble]
+		#veinSizeMarble
+		veinSizeMarble = 2048
+		#Generate Marble
+		generateMarble = true
+
+	[WorldGen.Teslatite]
+		#Vein Count Teslatite
+		veinCountTeslatite = 4
+		#Generate Teslatite
+		generateTeslatite = true
+		#Teslatite Min Y
+		minTeslatiteY = 1
+		#Teslatite Max Y
+		maxTeslatiteY = 20
+		#Vein Size Teslatite
+		veinSizeTeslatite = 8
+
+	[WorldGen.Ruby]
+		#Ruby Min Y
+		minRubyY = 0
+		#Generate Ruby
+		generateRuby = true
+		#Vein Size Ruby
+		veinSizeRuby = 5
+		#Ruby Max Y
+		maxRubyY = 48
+		#Vein Count Ruby
+		veinCountRuby = 2
+
+	[WorldGen.Amethyst]
+		#Amethyst Min Y
+		minAmethystY = 0
+		#Vein Count Amethyst
+		veinCountAmethyst = 2
+		#Generate Amethyst
+		generateAmethyst = true
+		#Amethyst Max Y
+		maxAmethystY = 48
+		#Vein Size Amethyst
+		veinSizeAmethyst = 5
+
+	[WorldGen.Zinc]
+		#Vein Count Zinc
+		veinCountZinc = 6
+		#Vein Size Zinc
+		veinSizeZinc = 6
+		#Zinc Max Y
+		maxZincY = 40
+		#Generate Zinc
+		generateZinc = false
+		#Zinc Min Y
+		minZincY = 15
+
+[Recipes]
+	#Any item name (minecraft:bucket,minecraft:minecart) added here will be blacklisted from being able to melt down into its raw materials.
+	alloyFurnaceBlacklist = "minecraft:iron_nugget,minecraft:gold_nugget,minecraft:gold_ingot,minecraft:iron_ingot"
+	#Generate Json Datapack for Alloy Furnace (Only used to generate recycling recipes)
+	alloyFurnaceDatapackGenerator = true
+
+[Other]
+	#Enable Gate Ticking Sounds
+	tickingSounds = true
+	#Server Template Saving by Ops only
+	ServerTemplateOpsonly = false
+	#Albedo Support Lamp Brightness
+	albedoBrightness = 0.01
+
