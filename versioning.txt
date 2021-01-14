@@ -1,0 +1,7 @@
+Versioning:
+1.2.3.4
+
+1: Major revisions or Minecraft updates
+2: Mods Added or Removed
+3: Mods Updated
+4: Configuration/script changes and bugfixes

@@ -43,7 +43,6 @@ const materialsToUnify = [
     'bronze',
     'electrum',
     'constantan',
-    'steel',
     'osmium',
     'diamond',
     'lapis',
