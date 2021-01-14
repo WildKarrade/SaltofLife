@@ -105,7 +105,7 @@
 	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn in water
 	[Shark.Spawns]
 		#Range: 1 ~ 32767
-		MaxSpawns = 2
+		MaxSpawns = 0
 		#Range: 1 ~ 32767
 		MinSpawns = 0
 		SpawnBoimes = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean"]
@@ -186,7 +186,7 @@
 	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass/dirt and sand blocks
 	[Crab.Spawns]
 		#Range: 1 ~ 32767
-		MaxSpawns = 2
+		MaxSpawns = 0
 		#Range: 1 ~ 32767
 		MinSpawns = 0
 		SpawnBoimes = ["minecraft:river", "minecraft:beach", "minecraft:desert_lakes", "minecraft:swamp_hills", "minecraft:swamp"]
