@@ -124,9 +124,9 @@
 	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass-blocks where lightlevel is higher than 8
 	[Penguin.Spawns]
 		#Range: 1 ~ 32767
-		MaxSpawns = 6
+		MaxSpawns = 0
 		#Range: 1 ~ 32767
-		MinSpawns = 3
+		MinSpawns = 0
 		SpawnBoimes = ["minecraft:snowy_tundra", "minecraft:snowy_mountains", "minecraft:snowy_beach", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains"]
 		#Range: 1 ~ 32767
 		SpawnWeight = 12
@@ -218,7 +218,7 @@
 	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn in water
 	[Mantaray.Spawns]
 		#Range: 1 ~ 32767
-		MaxSpawns = 2
+		MaxSpawns = 0
 		#Range: 1 ~ 32767
 		MinSpawns = 0
 		SpawnBoimes = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean"]
@@ -275,9 +275,9 @@
 	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass-blocks where lightlevel is higher than 8
 	[Owl.Spawns]
 		#Range: 1 ~ 32767
-		MaxSpawns = 6
+		MaxSpawns = 0
 		#Range: 1 ~ 32767
-		MinSpawns = 3
+		MinSpawns = 0
 		SpawnBoimes = ["minecraft:forest", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:tall_birch_forest", "minecraft:tall_birch_hills", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:flower_forest", "minecraft:wooded_hills", "minecraft:wooded_mountains", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains"]
 		#Range: 1 ~ 32767
 		SpawnWeight = 20

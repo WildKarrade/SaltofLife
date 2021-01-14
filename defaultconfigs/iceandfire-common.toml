@@ -113,10 +113,10 @@
 	#A more intelligent dragon pathfinding system, but is also laggier. Turn this on if you think dragons are too stupid.
 	"Intelligent Dragon Pathfinding" = false
 	#True if hippogryphs are allowed to spawn
-	"Spawn Hippogryphs" = true
+	"Spawn Hippogryphs" = false
 	#Hippogryph spawn weight. Lower = lower chance to spawn.
 	#Range: 1 ~ 10000
-	"Hippogryph Spawn Weight" = 2
+	"Hippogryph Spawn Weight" = 1
 	#True if gorgon temples are allowed to spawn
 	"Spawn Gorgons" = true
 	#1 out of this number chance per chunk for generation
