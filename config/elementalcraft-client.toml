@@ -4,10 +4,10 @@
 	#The duration of shrine range display.
 	#Range: 0 ~ 10000
 	shrineRangeDisplayDuration = 600
-	#Reload JEI if it was loaded before Pure Ore generation.
-	reloadJEIAfterPureOreGen = true
 	#Display a shadow where pedestals can be placed.
 	renderPedestalShadow = true
+	#Set to true if you want to reduce quality of particles for beter performances.
+	fastParticleEffects = false
 
 	[elementalcraft-client.gauge]
 		#the offset of the gauge on the Y axis.

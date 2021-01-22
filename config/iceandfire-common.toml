@@ -190,7 +190,7 @@
 	#Range: 1.0 ~ 10000.0
 	"Death Worm Base Attack Strength" = 3.0
 	#True if deathworms are allowed to spawn
-	"Spawn Death Worms" = false
+	"Spawn Death Worms" = true
 	#True if wild deathworms are allowed to target and attack monsters
 	"Death Worms Target Monsters" = true
 	#Deathworm spawn weight. Lower = lower chance to spawn

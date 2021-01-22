@@ -6,12 +6,21 @@
 	[elementalcraft.instruments]
 
 		[elementalcraft.instruments.purifier]
-			#The nember of tick for a Ore Purifier co procces one item.
+			#The nember of tick for a Ore Purifier to procces one item.
 			#Range: 0 ~ 2400
 			purifierDuration = 100
-			#The amount of element consumed by the Ore Purifier per tick.
+			#The max amount of element consumed by the Ore Purifier per tick.
 			#Range: 0 ~ 1000
-			purifierConsumeAmount = 25
+			purifierTransferSpeed = 25
+			#The max amount of on an purifier.
+			#Range: 0 ~ 10
+			purifierMaxRunes = 3
+			#The ratio of each luck rune on a purifier.
+			#Range: 0.0 ~ 10.0
+			purifierLuckRatio = 3.0
+			#The base cost of a piurifier recipe.
+			#Range: 0 ~ 10000
+			purifierBaseCost = 2500
 
 			[elementalcraft.instruments.purifier.pureOre]
 				#Set to false if you want to manualy manage processing of pure ore.
@@ -27,12 +36,26 @@
 				pureOreCampFireRecipe = true
 
 		[elementalcraft.instruments.fireFurnace]
-			#The amount of element consumed by the Fire Blast Furnace per tick.
-			#Range: 0 ~ 500
-			fireBlastFurnaceConsumeAmount = 20
-			#The amount of element consumed by the Fire Furnace per tick.
-			#Range: 0 ~ 500
-			fireFurnaceConsumeAmount = 10
+			#The max amount of element consumed by the fire furnace per tick.
+			#Range: 0 ~ 1000
+			fireFurnaceTransferSpeed = 20
+			#The max amount of on a fire furnace.
+			#Range: 0 ~ 10
+			fireFurnaceMaxRunes = 1
+			#The amount multiplied by the cooking time of the furnace recipe.
+			#Range: 0 ~ 1000
+			fireFurnaceElementAmount = 10
+
+			[elementalcraft.instruments.fireFurnace.fireBlastFurnace]
+				#The max amount of element consumed by the fire blast furnace per tick.
+				#Range: 0 ~ 1000
+				fireBlastFurnaceTransferSpeed = 40
+				#The max amount of on a fire blast furnace.
+				#Range: 0 ~ 10
+				fireBlastFurnaceMaxRunes = 2
+				#The amount multiplied by the cooking time of the blast furnace recipe.
+				#Range: 0 ~ 1000
+				fireBlastFurnaceElementAmount = 20
 
 		[elementalcraft.instruments.elementPipe]
 			#The amount of element transferred by pipes.
@@ -49,6 +72,9 @@
 			#The amount of element extracted by an evaporator.
 			#Range: 0 ~ 100
 			evaporatorExtractionAmount = 1
+			#The max amount of on an evaporator.
+			#Range: 0 ~ 10
+			evaporatorMaxRunes = 1
 
 		[elementalcraft.instruments.extractor]
 			#The amount of element extracted by an improved extractor.
@@ -57,6 +83,12 @@
 			#The amount of element extracted by an extractor.
 			#Range: 0 ~ 100
 			extractorExtractionAmount = 5
+			#The max amount of on an extractor.
+			#Range: 0 ~ 10
+			extractorMaxRunes = 1
+			#The max amount of on an improved extracto.
+			#Range: 0 ~ 10
+			improvedExtractoMaxRunes = 3
 
 		[elementalcraft.instruments.tank]
 			#The element capacity of a element container.
@@ -69,6 +101,50 @@
 		[elementalcraft.instruments.binder]
 			#Define if or not binder recip require to be ordered.
 			binderRecipeMatchOrder = true
+			#The max amount of element consumed by the binder per tick.
+			#Range: 0 ~ 1000
+			binderTransferSpeed = 25
+			#The max amount of on an binder.
+			#Range: 0 ~ 10
+			binderMaxRunes = 2
+
+			[elementalcraft.instruments.binder.improved]
+				#The max amount of element consumed by the improved binder per tick.
+				#Range: 0 ~ 1000
+				improvedBinderTransferSpeed = 50
+				#The max amount of on an improved binder.
+				#Range: 0 ~ 10
+				improvedBinderMaxRunes = 3
+
+		[elementalcraft.instruments.infuser]
+			#The max amount of element consumed by the infuser per tick.
+			#Range: 0 ~ 1000
+			infuserTransferSpeed = 10
+			#The max amount of on an infuser.
+			#Range: 0 ~ 10
+			infuserMaxRunes = 1
+			#The base cost of a tool infusion recipe.
+			#Range: 0 ~ 10000
+			toolInfustionBaseCost = 1000
+
+		[elementalcraft.instruments.crystallizer]
+			#The max amount of element consumed by the gem crystallizer per tick.
+			#Range: 0 ~ 1000
+			crystallizerTransferSpeed = 25
+			#The max amount of on an crystallizer.
+			#Range: 0 ~ 10
+			crystallizerMaxRunes = 3
+			#The ratio of each luck rune on a crystallizer.
+			#Range: 0.0 ~ 10.0
+			crystallizerLuckRatio = 3.0
+
+		[elementalcraft.instruments.inscriber]
+			#The max amount of element consumed by the gem inscriber per tick.
+			#Range: 0 ~ 10000
+			inscriberTransferSpeed = 1000
+			#The max amount of on an inscriber.
+			#Range: 0 ~ 10
+			inscriberMaxRunes = 3
 
 	[elementalcraft.infusion]
 		#The bonus to movement speed provided by the air infusion on leggings.
@@ -171,6 +247,9 @@
 			#The range of the Fire Pylon.
 			#Range: 0 ~ 100
 			firePylonRange = 10
+			#The damage of the Fire Pylon.
+			#Range: 0.0 ~ 20.0
+			firePylonDamage = 2.0
 
 		[elementalcraft.shrines.enderLock]
 			#The range of the Ender Lock Shrine.
@@ -201,6 +280,12 @@
 			#The nember of tick betwenn two Sweet Shrine activations.
 			#Range: 0.0 ~ 2400.0
 			sweetShrinePeriode = 40.0
+			#The food given by the sheet shrine.
+			#Range: 1 ~ 10
+			sweetShrineFood = 1
+			#The saturation given by the sheet shrine.
+			#Range: 0.0 ~ 10.0
+			sweetShrineSaturation = 0.1
 
 		[elementalcraft.shrines.overloadShrine]
 			#The amount of element consumed by the overload Shrine.
@@ -256,4 +341,24 @@
 		#The element capacity of an element holder.
 		#Range: 0 ~ 100000000
 		elementHolderCapacity = 10000
+		#Define chisel durablility (0 for unbreakable).
+		#Range: 0 ~ 1000
+		chiselDurability = 250
+
+	#Pure Infusser and pedestals config
+	[elementalcraft.pureInfuser]
+		#The max amount of element consumed by the pure infuser per tick.
+		#Range: 0 ~ 1000
+		pureInfuserTransferSpeed = 100
+		#The max amount of on a pure infuser.
+		#Range: 0 ~ 10
+		pureInfuserMaxRunes = 3
+
+		[elementalcraft.pureInfuser.pedestals]
+			#The max amount of on a pedestal.
+			#Range: 0 ~ 10
+			pedestalMaxRunes = 1
+			#The element capacity of a pedestal.
+			#Range: 0 ~ 100000000
+			pedestalCapacity = 10000
 
