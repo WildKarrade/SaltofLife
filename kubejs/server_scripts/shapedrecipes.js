@@ -104,6 +104,15 @@ onEvent('recipes', event => {
 	event.shaped(Item.of('scuba_gear:scuba_boots', 1), [ '   ', 'B B', 'A A' ], {
 			A: '#forge:ingots/bronze',
 			B: 'minecraft:iron_nugget'
+		}),
+	event.shaped(Item.of('immersivepetroleum:asphalt', 8), [ 'ABA', 'CDC', 'ABA' ], {
+			A: '#forge:sand',
+			B: 'emendatusenigmatica:bitumen_gem',
+			D: '#forge:buckets/water',
+			C: '#forge:gravel'
+		}),
+	event.shaped(Item.of('create:gabbro', 3), [ 'A  ', ' A ', '  A' ], {
+			A: 'minecraft:granite'
 		})
 	//Remove some default recipes
 	event.remove({id: 'refinedstorageaddons:wireless_crafting_grid', output: 'refinedstorageaddons:wireless_crafting_grid' });
