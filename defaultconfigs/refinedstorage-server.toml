@@ -161,10 +161,10 @@
 	usage = 8
 	#The base range of the Wireless Transmitter
 	#Range: > 0
-	baseRange = 32
+	baseRange = 48
 	#The additional range per Range Upgrade in the Wireless Transmitter
 	#Range: > 0
-	rangePerUpgrade = 8
+	rangePerUpgrade = 12
 
 [storageMonitor]
 	#The energy used by the Storage Monitor
